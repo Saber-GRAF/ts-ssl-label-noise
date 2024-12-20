@@ -122,7 +122,7 @@ If you use this code in your research, please cite our paper:
 @article{graf2024ssl,
     title={Self-Supervised Learning as a Novel Solution to Label Noise: Insights from Sharp Wave Ripple Classification},
     author={Graf Saber, Meyrand Pierre, Herry Cyril, Bem Tiaza, Tsai Feng-Sheng},
-    journal={YourJournalName},
+    journal={Scientific Reports},
     year={2024}
 }
 ```
