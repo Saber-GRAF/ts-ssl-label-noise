@@ -64,19 +64,19 @@ The project implements a three-stage approach:
 ```
 ts-ssl-label-noise/
 ├── data/              
-│   ├── swrart/       # Synthetic SWR dataset
+│   ├── swrart/         # Synthetic SWR dataset
 │   │   └── generate_swrart.py
-│   ├── arrhythmia/   # MIT-BIH dataset
+│   ├── arrhythmia/     # MIT-BIH dataset
 │   │   └── preprocess_arrhythmia.py
-│   └── epilepsy/     # Epileptic Seizure dataset
+│   └── epilepsy/       # Epileptic Seizure dataset
 │       └── preprocess_epilepsy.py
-├── src/              # Source code
-│   ├── config.py     # Configuration settings
-│   ├── models/       # Model architectures
-│   ├── training/     # Training functions
-│   └── utils/        # Utility functions
-├── notebooks/        # Jupyter notebooks
-├── requirements.txt  # Dependencies
+├── src/                # Source code
+│   ├── augmentation.py # data augmentations
+│   ├── models/         # Model architectures
+│   ├── training.py     # Training functions
+│   └── utils.py        # Utility functions
+├── notebooks/          # Jupyter notebooks
+├── requirements.txt    # Dependencies
 └── README.md
 ```
 
