@@ -65,13 +65,13 @@ The project implements a three-stage approach:
 ts-ssl-label-noise/
 ├── data/              
 │   ├── swrart/         # Synthetic SWR dataset
-│   │   └── generate_swrart.py
 │   ├── arrhythmia/     # MIT-BIH dataset
-│   │   └── preprocess_arrhythmia.py
 │   └── epilepsy/       # Epileptic Seizure dataset
-│       └── preprocess_epilepsy.py
 ├── src/                # Source code
 │   ├── augmentation.py # data augmentations
+│   ├── arrhythmia.py # data augmentations
+│   ├── epilepsy.py # data augmentations
+│   ├── swrart.py # data augmentations
 │   ├── models/         # Model architectures
 │   ├── training.py     # Training functions
 │   └── utils.py        # Utility functions
