@@ -69,9 +69,9 @@ ts-ssl-label-noise/
 │   └── epilepsy/       # Epileptic Seizure dataset
 ├── src/                # Source code
 │   ├── augmentation.py # data augmentations
-│   ├── arrhythmia.py   # data augmentations
-│   ├── epilepsy.py     # data augmentations
-│   ├── swrart.py       # data augmentations
+│   ├── arrhythmia.py  
+│   ├── epilepsy.py    
+│   ├── swrart.py      
 │   ├── models/         # Model architectures
 │   ├── training.py     # Training functions
 │   └── utils.py        # Utility functions
